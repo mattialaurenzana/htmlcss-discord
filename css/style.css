@@ -68,7 +68,7 @@ ul li{
 
 .button{
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 20px;
     font-size: 12px;
 
 }
@@ -78,16 +78,76 @@ ul li{
     color: black;
 }
 
+.black{
+    background-color: black;
+    color: white;
+}
+
 .jumbotron h1{
     font-size: 45px;
 }
 
-p{
+.container p{
     width:60%;
     margin: 30px auto; 
     color: white;
     line-height: 30px;
     
+}
+
+.button.grande-1{
+    font-size: 17px;
+    position: relative;
+    left:300px
+    
+}
+
+.button.grande-2{
+    font-size: 17px;
+    position: relative;
+    left:360px;
+}
+
+.freccia{
+    vertical-align: middle;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.text-mac{
+    vertical-align: middle;
+}
+
+.sezione{
+    margin-top: 50px;
+}
+
+.img-float{
+    width:50%;
+    padding:100px;
+}
+
+.img-float img{
+    height:100%;
+    width:100%;
+}
+
+.text{
+    width:50%;
+    padding-top:100px;
+    padding-right: 450px;
+    padding-left: 30px;
+}
+
+.text h2{
+    font-size: 40PX;
+}
+
+.text p{
+    margin-top: 20px;
+}
+.img-container{
+    width:350px;
 }
 
 
