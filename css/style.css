@@ -68,9 +68,26 @@ ul li{
 
 .button{
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 15px;
     font-size: 12px;
 
+}
+
+.big-button{
+
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+.left{
+    position: relative;
+    left: 290px;
+}
+
+.right{
+    position: relative;
+    left: 330px;
 }
 
 .white{
@@ -83,6 +100,14 @@ ul li{
     color: white;
 }
 
+.freccia{
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+
+
 .jumbotron h1{
     font-size: 45px;
 }
@@ -91,35 +116,6 @@ header p{
     width:60%;
     margin: 30px auto; 
     color: white;
-    line-height: 30px;
-    
-}
-
-.button.grande-1{
-    font-size: 17px;
-    position: relative;
-    left:300px
-    
-}
-
-.button.grande-2{
-    font-size: 17px;
-    position: relative;
-    left:360px;
-}
-
-.freccia{
-    vertical-align: middle;
-    margin-right: 10px;
-    font-weight: bold;
-}
-
-.text-mac{
-    vertical-align: middle;
-}
-
-.sezione{
-    margin-top: 50px;
 }
 
 .img-float-1{
@@ -145,6 +141,7 @@ header p{
     margin-top: 20px;
     line-height: 25px;
 }
+
 
 .wave-container{
     height:100px;
@@ -240,4 +237,3 @@ header p{
     left:190px;
     font-size: 17px;
 }
-
