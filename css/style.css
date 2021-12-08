@@ -54,11 +54,11 @@ header{
 
 
 
-ul{
+header ul{
     list-style: none;
 }
 
-ul li{
+header ul li{
     float: left;
     color: white;
     margin-right: 30px;
@@ -68,7 +68,7 @@ ul li{
 
 .button{
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 20px;
     font-size: 12px;
 
 }
@@ -76,7 +76,7 @@ ul li{
 .big-button{
 
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 20px;
     font-size: 18px;
 }
 
@@ -192,9 +192,15 @@ header p{
     margin-bottom: 90px;
 }
 
+
 .final-text{
-    font-size: 20px;
+    font-size: 22px;
     width: 100%;
+    text-align: center;
+    position: relative;
+    right:50px;
+    
+   
 }
 
 .final-text p{
@@ -204,7 +210,6 @@ header p{
 
 .final-section{
     padding-top: 80px;
-    padding-bottom: 100px;
 }
 
 .final-img{
@@ -212,8 +217,17 @@ header p{
     margin-top: 40px;
 }
 
+
+.final-img img{
+    width:100%;
+
+}
+
+
+
 .final-img-1{
     margin-top: 25px;
+    text-align: center;
 }
 
 .final-img-1 img{
@@ -223,17 +237,104 @@ header p{
 .final-img-1 p{
     position: relative;
     z-index:5;
-    bottom:30px;
-    left:120px;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: bold;
     margin-top: 30px;
+    bottom: 45px;
 }
 
 .blue{
     background-color: #6495ED;
     color: white;
-    position: relative;
-    left:190px;
     font-size: 17px;
+}
+
+footer{
+    background-color: black;
+    margin-top: 80px;
+}
+
+.last-container{
+    padding-top: 70px;
+}
+
+
+footer h2{
+    color: rgb(38, 78, 163);
+}
+
+.italy-container{
+    display: inline-block;
+    width: 20px;
+    margin-top:20px
+}
+
+.italy-container img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+
+.dropdown-container{
+    display: inline-block;
+    color: white;
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+.dropdown-container i{
+    margin-left: 5px;
+}
+
+.social-container{
+    color: white;
+    margin-top: 10px;
+}
+
+.social-container i{
+    margin-right: 10px;
+}
+
+footer ul{
+    list-style: none;
+    color: white;
+}
+
+footer ul li{
+    margin-bottom: 10px;
+}
+
+footer .column{
+    margin-right: 50px;
+}
+
+footer .column span{
+    color: rgb(38, 78, 163);
+}
+
+.first-column{
+    margin-left: 80px;
+}
+
+footer .hr-remix{
+   border-top: 2px solid rgb(38, 78, 163);
+}
+
+.last-div{
+    margin-top: 40px;
+}
+
+
+
+ .final-button{
+    background-color: rgb(101, 132, 197);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+ }
+
+.last-2-icon{
+    height: 150px;
+    margin-top: 30px;
 }
